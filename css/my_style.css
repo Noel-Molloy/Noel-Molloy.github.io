@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	background-color:#DBDBDB;
+}
+
 #background
 {
 	margin-top:-10px;
@@ -21,7 +25,54 @@
 	font-size:18px;
 }
 
-img
+.breaks
 {
 	margin-left:-10px;
+}
+
+
+#first_video p
+{
+	color:#FFFFFF;
+	width:25%;
+	text-align:center;
+	background-image:url(../images/header-red-and-black-940-x-198.jpg);
+	font:Impact;
+	font-size:20px;
+}
+
+#first_video iframe
+{
+	float:right;
+	margin-top:-250px;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+
+#second_video p
+{
+	color:#FFFFFF;
+	width:25%;
+	text-align:center;
+	background-image:url(../images/header-red-and-black-940-x-198.jpg);
+	font:Impact;
+	font-size:20px;
+}
+
+#second_video iframe
+{
+	float:right;
+	margin-top:-200px;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+
+#third_video p
+{
+	color:#FFFFFF;
+	width:25%;
+	text-align:center;
+	background-image:url(../images/header-red-and-black-940-x-198.jpg);
+	font:Impact;
+	font-size:20px;
 }

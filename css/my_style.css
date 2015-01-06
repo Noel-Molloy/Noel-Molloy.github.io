@@ -156,3 +156,20 @@ p > a:visited
 {
 	color:#D000FF;
 }
+
+#external_links
+{
+	float:right;
+	margin-right:15px;
+	font-size:22px;
+	font-family:Arial Black;
+}
+
+#external_links_top
+{
+	float:right;
+	margin-top:-40px;
+	margin-right:15px;
+	font-size:22px;
+	font-family:Arial Black;
+}

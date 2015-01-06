@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background-color:#DBDBDB;
+	background-color:#EDEDED;
 }
 
 #background
@@ -25,6 +25,13 @@ body{
 	font-size:18px;
 }
 
+#links
+{
+	border:thin solid #000000;
+	float:right;
+	font-size:20px;
+}
+
 .breaks
 {
 	margin-left:-10px;
@@ -44,7 +51,7 @@ body{
 #first_video iframe
 {
 	float:right;
-	margin-top:-250px;
+	margin-top:-220px;
 	margin-right:10px;
 	margin-bottom:5px;
 }
@@ -62,7 +69,7 @@ body{
 #second_video iframe
 {
 	float:right;
-	margin-top:-200px;
+	margin-top:-150px;
 	margin-right:10px;
 	margin-bottom:5px;
 }
@@ -75,4 +82,77 @@ body{
 	background-image:url(../images/header-red-and-black-940-x-198.jpg);
 	font:Impact;
 	font-size:20px;
+}
+
+#first_animation p
+{
+	color:#FFFFFF;
+	width:25%;
+	text-align:center;
+	background-image:url(../images/header-red-and-black-940-x-198.jpg);
+	font:Impact;
+	font-size:20px;
+}
+
+#second_animation p
+{
+	color:#FFFFFF;
+	width:25%;
+	text-align:center;
+	background-image:url(../images/header-red-and-black-940-x-198.jpg);
+	font:Impact;
+	font-size:20px;
+}
+
+#second_animation img
+{
+	float:right;
+	margin-top:-75px;
+	margin-right:200px;
+	margin-bottom:5px;
+}
+
+#third_animation p
+{
+	color:#FFFFFF;
+	width:25%;
+	text-align:center;
+	background-image:url(../images/header-red-and-black-940-x-198.jpg);
+	font:Impact;
+	font-size:20px;
+}
+
+#third_animation img
+{
+	margin-right:10px;
+	margin-bottom:5px;
+}
+
+#fourth_animation p
+{
+	color:#FFFFFF;
+	width:25%;
+	text-align:center;
+	background-image:url(../images/header-red-and-black-940-x-198.jpg);
+	font:Impact;
+	font-size:20px;
+}
+
+#fifth_animation p
+{
+	color:#FFFFFF;
+	width:25%;
+	text-align:center;
+	background-image:url(../images/header-red-and-black-940-x-198.jpg);
+	font:Impact;
+	font-size:20px;
+}
+
+p > a:link
+{
+	color:#E0FF00;
+}
+p > a:visited
+{
+	color:#D000FF;
 }
